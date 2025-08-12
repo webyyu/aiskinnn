@@ -1,0 +1,14 @@
+{
+  "name": "product_ingredient_analysis",
+  "version": "1.0.0",
+  "description": "Upload product image, OCR extract ingredients, analyze via Qwen, and store result bound to uid.",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.11.0",
+    "axios": "^1.7.7",
+    "parse-multipart": "^1.0.4"
+  }
+} 

@@ -1,0 +1,9 @@
+{
+  "name": "get_skin_analyses_by_uid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.10.0"
+  }
+} 
