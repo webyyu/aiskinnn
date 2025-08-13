@@ -9,6 +9,12 @@
     <main class="main-content">
       <LoginForm @login-success="onLoginSuccess" />
     </main>
+    <footer class="page-footer">
+      <span>Made in </span>
+      <a href="https://mc.tencent.com/HRVjVcS5" target="_blank" rel="noopener noreferrer">CodeBuddy</a>
+      <span> / Power by </span>
+      <a href="https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/?from=csdn-hackathon-2025" target="_blank" rel="noopener noreferrer">CloudBase</a>
+    </footer>
   </div>
 </template>
 
@@ -45,5 +51,18 @@ export default {
   flex: 1;
   padding: 2rem 1rem;
   margin-top: -1.5rem;
+}
+.page-footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem 1.5rem;
+}
+.page-footer a {
+  color: #ff6699;
+  text-decoration: none;
+}
+.page-footer a:hover {
+  text-decoration: underline;
 }
 </style> 
